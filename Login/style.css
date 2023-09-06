@@ -1,0 +1,162 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Zentriert den Inhalt horizontal */
+}
+
+header {
+    background-color: #ffffff; /* Rot (Kanton Baselland) */
+    color: #000000;
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
+}
+.logo {
+    float: right;
+    margin-right: 20px;
+    margin-top: -5px;
+}
+
+.head {
+    float: left;
+    margin-left: 20px;
+    margin-top: -5px;
+}
+
+h1 {
+    font-size: 24px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    align-items: center;
+}
+
+h2 {
+    font-size: 18px;
+    color: #ff1900;
+}
+
+textarea {
+    width: 100%;
+    height: 400px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    resize: vertical;
+    font-size: 20px; 
+}
+
+button {
+    background-color: #ff1900;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #951a0c;
+}
+button {
+    background-color: #ce1500;
+    color: #fff;
+    font-size: 25px;
+    border: none;
+    border-radius: 5px;
+    padding: 20px 60px; /* Hier kannst du die Größe des Buttons anpassen */
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+.ausfuerungsbutton {
+    background-color: #d60202;
+    color: #fff;
+    font-size: 25px;
+    border: none;
+    border-radius: 5px;
+    padding: 20px 60px; /* Hier kannst du die Größe des Buttons anpassen */
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+    justify-content: right;
+    align-items: right;
+}
+
+#output {
+    width: 48%;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 5px;
+    height: 1475px; /* Höhe auf 100% gesetzt */
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 150px; /* Logo vergrößert */
+    float: right;
+}
+
+.title h1 {
+    font-size: 24px;
+    text-transform: uppercase;
+    margin: 0;
+    order: -1; /* Ändert die Reihenfolge, um den Titel links anzuzeigen */
+}
+  
+  ul.horizontal-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Zentriert die Liste horizontal */
+  }
+  
+  ul.horizontal-menu li {
+    margin-right: 30px; /* Abstand zwischen den Menüelementen */
+  }
+  
+  ul.horizontal-menu li:last-child {
+    margin-right: 0; /* Kein Abstand nach dem letzten Element */
+  }
+  
+  ul.horizontal-menu li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 24px; /* Ändere die Schriftgröße nach Bedarf */
+  }
+  
+  ul.horizontal-menu li a:hover {
+    color: #FF0000; /* Farbänderung bei Hover */
+  }
+  input, select, textarea{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    font-size: 30px;
+    }
+    .loginform{
+        position: fixed;
+        width: 100%;
+        bottom: 40%;
+    }

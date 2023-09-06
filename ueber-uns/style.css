@@ -1,0 +1,103 @@
+/* Allgemeine Stile */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header-Stile */
+header {
+    background-color: #ffffff; /* Rot (Kanton Baselland) */
+    color: #000000;
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+    float: right;
+    margin-right: 20px;
+    margin-top: -5px;
+}
+
+.head {
+    float: left;
+    margin-left: 20px;
+    margin-top: -5px;
+}
+
+h1 {
+    font-size: 24px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+/* Menü-Stile */
+ul.horizontal-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Zentriert die Liste horizontal */
+}
+
+ul.horizontal-menu li {
+    margin-right: 30px; /* Abstand zwischen den Menüelementen */
+}
+
+ul.horizontal-menu li:last-child {
+    margin-right: 0; /* Kein Abstand nach dem letzten Element */
+}
+
+ul.horizontal-menu li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 24px; /* Ändere die Schriftgröße nach Bedarf */
+}
+
+ul.horizontal-menu li a:hover {
+    color: #FF0000; /* Farbänderung bei Hover */
+}
+
+/* Mitarbeiterkarten */
+.team-member {
+    background-color: #fff;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    width: calc(50% - 40px); /* 50% der Breite des Elternelements, mit 20px Abstand */
+    display: inline-block; /* Damit die Karten nebeneinander angezeigt werden */
+    vertical-align: top; /* Oben ausrichten */
+    box-sizing: border-box; /* Um den Rand in die Berechnung einzubeziehen */
+    float: left; /* Karten nebeneinander anordnen */
+    clear: none; /* Aufheben des Zeilenumbruchs */
+}
+
+/* Löschen Sie den Abstand zwischen den Karten */
+.team-member:first-child {
+    margin-left: 0;
+}
+
+.team-member:last-child {
+    margin-right: 0;
+}
+
+.team-member img {
+    max-width: 100%;
+    border-radius: 1%; /* Runde Bildkanten */
+}
+
+.team-member h3 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.team-member p {
+    font-size: 16px;
+    margin-top: 10px;
+    color: #777; /* Grauer Text */
+}
